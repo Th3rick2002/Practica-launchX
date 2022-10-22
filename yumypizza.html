@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yumy Pizza</title>
+</head>
+<body>
+    <header>
+        <h1>Yumy Pizza</h1>
+    </header>
+    <section>
+        <img src="pizza.png" alt="#">
+
+        <h2>Menu</h2>
+        <h3>Pizza familiar (12 porciones)</h3>
+        <p>Todos los combos incluyen bebida, pan con ajo y postre</p>
+        <ul>
+            <li>Pizza de un ingrediente ............ $20</li>
+            <li>Pizza de dos ingredientes........... $17.50</li>
+            <li>Pizza de cuatro ingredientes ....... $19</li>
+            <li>Pizza de especialidad .............. $20</li>
+        </ul>
+
+        <h3>Pizza mediana (8 porciones)</h3>
+        <p>Todos los combos incluyen bebida y pan con ajo</p>
+        <ul>
+            <li>pizza de un ingrediente ............. $14</li>
+            <li>Pizza de dos ingredientes ........... $15.50</li>
+            <li>Pizza de cuatro ingredientes ........ $16</li>
+            <li>Pizza de especialidad ............... $17</li>
+        </ul>
+
+        <h3>pizza pequeña (6 porciones)</h3>
+        <p>todos los combos incluyen bebida y pan con ajo</p>
+        <ul>
+            <li>pizza de un ingrediente ............. $8</li>
+            <li>Pizza de dos ingredientes ........... $9.50</li>
+            <li>Pizza de cuatro ingredientes ........ $11</li>
+            <li>Pizza de especialidad ............... $12</li>
+        </ul>
+
+        <h3>pizza personal</h3>
+        <p>Todos los combos incluyen bebida y papas fritas</p>
+        <ul>
+            <li>pizza de un ingrediente ............. $5</li>
+            <li>Pizza de dos ingredientes ........... $5.50</li>
+            <li>Pizza de cuatro ingredientes ........ $6.50</li>
+            <li>Pizza de especialidad ............... $7</li>
+        </ul>
+
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Para agregar</h3>
+        <p>Estos especiales se pueden agregar a su combo por un precio adicional</p>
+        <ul>
+            <li>Orilla rellena de quesillo .......... $3</li>
+            <li>Orden de nachos ..................... $5</li>
+            <li>Alitas en salsa barbacoa ............ $5</li>
+            <li>Tres leches ......................... $4</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Donde estamos ubicados</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicacion</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/XhBfpGYC18fMtuEU7">Plaza Chaparrastique, Avenida Roosevelt Sur</a></td>
+                <td>L - D  7:00 am - 9:00 pm</td>
+            </tr>
+            <tr>
+                <td>Metrocentro</td>
+                <td><a href="https://goo.gl/maps/aCEcdfL8bHkLgQBPA"> Dentro centro comercial Metrocentro</a></td>
+                <td>L - D  7:00 am - 9:00 pm</td>
+            </tr>
+            <tr>
+                <td>El encuentro</td>
+                <td><a href="https://goo.gl/maps/Q5RLYzQiYu3Gvj968"> Dentro centro comercial El encuentro</a></td>
+                <td>L - D  7:00 am - 9:00 pm</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Pedidos</h2>
+        <h3>Has tu pedido aqui</h3>
+
+        <form action="#">
+            <p>¿de que pizzeria quieres?</p>
+            <select name="" id="">
+                <option value="defaul">defaul</option>
+                <option value="Centro">Centro</option>
+                <option value="Metrocentro">Metrocentro</option>
+                <option value="El encuentro">El encuentro</option>
+            </select>
+
+            <p>¿de que pizza quieres?</p>
+            <input type="checkbox" id="familiar" name="familiar" value="familiar">
+            <label for="familiar">familiar</label>
+            <select name="ingredientesfamiliar" id="">
+                <option value="un_ingrediente">1 ingrediente</option>
+                <option value="dos_ingredientes">2 ingredientes</option>
+                <option value="cuatro_ingredientes">4 ingredientes</option>
+                <option value="especialidad">especialidad</option>
+            </select>
+            <input type="number" name="familiarnumero" id="familiarnumero" placeholder="¿cuantas pizzas?">
+
+            <br>
+
+            <input type="checkbox" id="mediana" name="mediana" value="mediana">
+            <label for="familiar">mediana</label>
+            <select name="ingredientesmediana" id="">
+                <option value="un_ingrediente">1 ingrediente</option>
+                <option value="dos_ingredientes">2 ingredientes</option>
+                <option value="cuatro_ingredientes">4 ingredientes</option>
+                <option value="especialidad">especialidad</option>
+            </select>
+            <input type="number" name="mediananumero" id="mediananumero" placeholder="¿cuantas pizzas?">
+
+            <br>
+
+            <input type="checkbox" id="pequeña" name="pequeña" value="pequeña">
+            <label for="pequeña">pequeña</label>
+            <select name="ingredientespequeña" id="">
+                <option value="un_ingrediente">1 ingrediente</option>
+                <option value="dos_ingredientes">2 ingredientes</option>
+                <option value="cuatro_ingredientes">4 ingredientes</option>
+                <option value="especialidad">especialidad</option>
+            </select>
+            <input type="number" name="pequeñanumero" id="pequeñanumero" placeholder="¿cuantas pizzas?">
+
+            <br>
+
+        </form>
+    </section>
+
+    <hr>
+</body>
+</html>
